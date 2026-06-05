@@ -31,7 +31,7 @@ export default function About() {
           {/* Image */}
           <motion.div initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 0.8, delay: 0.2 }} style={{ position: 'relative' }}>
             <div style={{ position: 'relative', aspectRatio: '4/5', overflow: 'hidden', borderRadius: 2 }}>
-              <img src="https://images.unsplash.com/photo-1574717025058-2f8737d2e2b7?w=700&q=85" alt="Shriram Toksiya"
+              <img src="https://images.unsplash.com/photo-1577495508326-19a1b3cf65b9?w=700&q=85" alt="Shriram Toksiya — Cinematographer"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
               {/* subtle blue overlay */}
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,35,50,0.5) 0%, transparent 50%)' }} />
@@ -47,7 +47,7 @@ export default function About() {
             {/* accent image */}
             <motion.div initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ delay: 0.4 }}
               style={{ position: 'absolute', top: -16, right: -16, width: 120, height: 120, overflow: 'hidden', border: '2px solid rgba(46,134,193,0.35)', borderRadius: 2 }}>
-              <img src="https://images.unsplash.com/photo-1495851795-84c252dce69c?w=300&q=80" alt="Camera gear" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300&q=80" alt="Camera gear" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </motion.div>
           </motion.div>
 

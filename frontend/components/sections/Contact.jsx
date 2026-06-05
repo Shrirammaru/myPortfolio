@@ -107,7 +107,7 @@ export default function Contact() {
 
             {/* Image */}
             <div className="card-white" style={{ aspectRatio: '16/9', overflow: 'hidden', position: 'relative', padding: 0 }}>
-              <img src="https://images.unsplash.com/photo-1522776851755-3914469f0ca2?w=700&q=80"
+              <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=700&q=80"
                 alt="Cinematography" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', opacity: 0.85 }} />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,35,50,0.7) 0%, transparent 50%)' }} />
               <div style={{ position: 'absolute', bottom: 16, left: 16 }}>

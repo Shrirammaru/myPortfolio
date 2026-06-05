@@ -67,10 +67,10 @@ export default function Experience() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.7 }}
           style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginTop: 52 }} className="photos-grid">
           {[
-            'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=400&q=80',
-            'https://images.unsplash.com/photo-1585951237318-9ea5e175b891?w=400&q=80',
-            'https://images.unsplash.com/photo-1601814933824-fd0b574dd592?w=400&q=80',
-            'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&q=80',
+            'https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=400&q=80',
+            'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=400&q=80',
+            'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400&q=80',
+            'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&q=80',
           ].map((src, i) => (
             <div key={i} className="card-white" style={{ aspectRatio: '16/9', overflow: 'hidden', padding: 0 }}>
               <img src={src} alt={`Production ${i + 1}`}

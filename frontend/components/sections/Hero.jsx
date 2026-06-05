@@ -19,7 +19,7 @@ export default function Hero() {
       {/* BG Video */}
       <div style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
         <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          poster="https://images.unsplash.com/photo-1536240478700-b869ad10e128?w=1920&q=80">
+          poster="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=1920&q=80">
           <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
         </video>
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(26,35,50,0.62)' }} />
