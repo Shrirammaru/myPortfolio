@@ -2,3 +2,11 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Ignore large original video files (use -web.mp4 compressed versions)
+frontend/public/cinematic.mp4
+frontend/public/commercial.mp4
+frontend/public/content.mp4
+frontend/public/drone.mp4
+frontend/public/shortfilm.mp4
+frontend/public/wedding.mp4
