@@ -3,24 +3,6 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'Content-Security-Policy',
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
-              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-              "font-src 'self' https://fonts.gstatic.com",
-              "img-src 'self' data: blob: https://images.unsplash.com https://img.youtube.com https://i.ytimg.com https://drive.google.com https://lh3.googleusercontent.com",
-              "frame-src 'self' https://www.youtube.com https://drive.google.com",
-              "media-src 'self' blob:",
-              "connect-src 'self'",
-            ].join('; '),
-          },
-        ],
-      },
-      {
         source: '/(.*)\\.mp4',
         headers: [
           { key: 'Accept-Ranges', value: 'bytes' },

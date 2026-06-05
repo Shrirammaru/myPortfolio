@@ -34,9 +34,10 @@ export default function About() {
             {/* Main tall image */}
             <div style={{ position: 'relative', aspectRatio: '4/5', overflow: 'hidden', borderRadius: 12 }}>
               <img
-                src="https://images.unsplash.com/photo-1577495508326-19a1b3cf65b9?w=700&q=85"
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=700&q=85"
                 alt="Shriram Toksiya — Cinematographer"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                onError={e => { e.target.src = 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=85' }}
               />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,35,50,0.5) 0%, transparent 50%)' }} />
               <div style={{ position: 'absolute', top: 12, left: 12, right: 12, bottom: 12, border: '1px solid rgba(46,134,193,0.25)', pointerEvents: 'none', borderRadius: 8 }} />
@@ -61,6 +62,7 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300&q=80"
                 alt="Camera gear"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                onError={e => { e.target.src = 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&q=80' }}
               />
             </motion.div>
 
@@ -75,6 +77,7 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=300&q=80"
                 alt="Video production"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                onError={e => { e.target.src = 'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=300&q=80' }}
               />
             </motion.div>
 
